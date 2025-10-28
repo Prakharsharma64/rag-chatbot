@@ -8,7 +8,7 @@ A local Retrieval-Augmented-Generation chatbot powered by Streamlit. The project
 - **Git**
 - (Windows) PowerShell or Command Prompt
 
-## Quick start
+## Installation
 
 ```powershell
 # 1. Clone the repository
@@ -27,6 +27,16 @@ A local Retrieval-Augmented-Generation chatbot powered by Streamlit. The project
 ```
 
 The Streamlit UI will open in your browser at <http://localhost:8501>.
+
+## Usage
+
+Once the web interface opens you can:
+
+1. **Upload PDFs** via the sidebar "Upload PDF" button to add them to the knowledge base.
+2. **Ask questions** in the chat box at the bottom of the page. The chatbot will answer using the uploaded documents.
+3. Toggle **Show sources** to display which document chunks contributed to the answer.
+4. Use **Rebuild Knowledge Base** to re-index all PDFs in `knowledge_base/`.
+5. Use **Clear Knowledge Base** or **Clear History** at any time to start fresh.
 
 ## Project layout
 
