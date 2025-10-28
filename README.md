@@ -1,0 +1,53 @@
+# RAG Chatbot
+
+A local Retrieval-Augmented-Generation chatbot powered by Streamlit. The project downloads (or loads) your knowledge base and lets you chat with it through a web UI.
+
+## Prerequisites
+
+- **Python** 3.9 or newer
+- **Git**
+- (Windows) PowerShell or Command Prompt
+
+## Quick start
+
+```powershell
+# 1. Clone the repository
+ git clone <YOUR-FORK-URL> rag-chatbot
+ cd rag-chatbot
+
+# 2. (Optional) create & activate a virtual environment
+ python -m venv venv
+ .\venv\Scripts\activate   # Windows
+
+# 3. Install dependencies
+ pip install -r requirements.txt
+
+# 4. Run the app
+ start.bat                    # or: python -m streamlit run app.py
+```
+
+The Streamlit UI will open in your browser at <http://localhost:8501>.
+
+## Project layout
+
+- `app.py` – main Streamlit application
+- `start.bat` – helper script that installs deps & starts the app
+- `requirements.txt` – Python package list
+
+## Contributing / Version control
+
+```powershell
+# First-time setup inside the project folder
+ git init                   # create local repo
+ git add .
+ git commit -m "Initial commit"
+
+# After making changes
+ git add <files>
+ git commit -m "Describe your change"
+```
+
+Push to GitHub/GitLab and share the repo link so collaborators can clone and run the same code.
+
+---
+Feel free to tweak the instructions or Python version numbers to match your environment.
